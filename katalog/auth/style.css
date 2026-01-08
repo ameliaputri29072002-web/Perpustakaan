@@ -1,0 +1,22 @@
+#bg-login{
+    background-image: url('../asset/image/smkn5.jpg');
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.slide-down{
+    animation: slide-down 3.5s;
+}
+
+@keyframes slide-down{
+    from{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
